@@ -75,6 +75,20 @@ body {
 	margin:auto;
 }
 
+.aspect {
+  padding-bottom: 70%;
+  position: relative;
+  width: 100%;
+}
+
+.aspect-inner {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
 .flipbook {
   height: 50px;
   transition: margin-left 0.25s ease-out;
@@ -88,8 +102,11 @@ body {
 }
 
 .flipbook .page {
-  height: 100%;
-  width: 100%;
+	width:461px;
+	height:600px;
+	background-color:white;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
 }
 
 .flipbook .page img {
